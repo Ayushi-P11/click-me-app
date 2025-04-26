@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click Me App</title>
+</head>
+<body style="text-align: center; margin-top: 100px;">
+    <form method="POST">
+        <button type="submit" style="padding: 10px 20px; font-size: 20px;">Click Me</button>
+    </form>
+
+    {% if message %}
+        <h1 style="color: green; margin-top: 30px;">{{ message }}</h1>
+    {% endif %}
+</body>
+</html>
